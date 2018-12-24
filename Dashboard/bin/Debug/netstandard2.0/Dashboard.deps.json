@@ -1,0 +1,208 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "4b89490089851395bcbdf0412ec80d38638f466e"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "Dashboard/1.0.0": {
+        "dependencies": {
+          "Microcharts": "0.7.1",
+          "Microcharts.Forms": "0.7.1",
+          "NETStandard.Library": "2.0.3",
+          "Syncfusion.Xamarin.SfChart": "16.2.0.42",
+          "Xamarin.Forms": "3.1.0.637273"
+        },
+        "runtime": {
+          "Dashboard.dll": {}
+        }
+      },
+      "Microcharts/0.7.1": {
+        "dependencies": {
+          "SkiaSharp": "1.59.1",
+          "System.ValueTuple": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microcharts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microcharts.Forms/0.7.1": {
+        "dependencies": {
+          "SkiaSharp.Views.Forms": "1.59.1.1",
+          "System.ValueTuple": "4.4.0",
+          "Xamarin.Forms": "3.1.0.637273"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "SkiaSharp/1.59.1": {
+        "runtime": {
+          "lib/netstandard1.3/SkiaSharp.dll": {
+            "assemblyVersion": "1.59.0.0",
+            "fileVersion": "1.59.1.0"
+          }
+        }
+      },
+      "SkiaSharp.Views.Forms/1.59.1.1": {
+        "dependencies": {
+          "SkiaSharp": "1.59.1",
+          "Xamarin.Forms": "3.1.0.637273"
+        },
+        "runtime": {
+          "lib/netstandard1.3/SkiaSharp.Views.Forms.dll": {
+            "assemblyVersion": "1.59.0.0",
+            "fileVersion": "1.59.1.0"
+          }
+        }
+      },
+      "Syncfusion.Licensing/16.2.0.42": {
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "16.2.0.42",
+            "fileVersion": "16.2.0.42"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.Core/16.2.0.42": {
+        "dependencies": {
+          "Syncfusion.Licensing": "16.2.0.42"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Syncfusion.Core.XForms.dll": {
+            "assemblyVersion": "16.2451.0.42",
+            "fileVersion": "16.2451.0.42"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfChart/16.2.0.42": {
+        "dependencies": {
+          "Syncfusion.Licensing": "16.2.0.42",
+          "Syncfusion.Xamarin.Core": "16.2.0.42",
+          "Xamarin.Forms": "3.1.0.637273"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Syncfusion.SfChart.XForms.dll": {
+            "assemblyVersion": "16.2451.0.42",
+            "fileVersion": "16.2451.0.42"
+          }
+        }
+      },
+      "System.ValueTuple/4.4.0": {},
+      "Xamarin.Forms/3.1.0.637273": {
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dashboard/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microcharts/0.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Py79bYXqvsqthZtk1ChdDhy/n4mb7T2CKjzTVU7ldj4dnjgFC2nbOJMGeAJkDk1lZPoQPSPx3obSq7S29Zrt8g==",
+      "path": "microcharts/0.7.1",
+      "hashPath": "microcharts.0.7.1.nupkg.sha512"
+    },
+    "Microcharts.Forms/0.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/oeY4j/x3I8PY6sNV3B6CHKdvZl3cJHxfkxIKSPaX86bc50mq1C0L+LqVnbRMwMa1PpywPtwL1+aqlKGM8bL3w==",
+      "path": "microcharts.forms/0.7.1",
+      "hashPath": "microcharts.forms.0.7.1.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "SkiaSharp/1.59.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Le+YqP0aWwJ5ImHikWiLWOWjdH8oOV6F2D7fknzKp9ArzDIrtPASeiHpI1RgqQEK/GGvR56B2l5belsDzwK7uQ==",
+      "path": "skiasharp/1.59.1",
+      "hashPath": "skiasharp.1.59.1.nupkg.sha512"
+    },
+    "SkiaSharp.Views.Forms/1.59.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9SvUAas8A7Tj4NuvFX3Z+tCQFbC+XSayRJPI3zxrzfc8g0WTc2S0yCj8+wm/eSTB5fHmFguu9FOoiyYMj53fiw==",
+      "path": "skiasharp.views.forms/1.59.1.1",
+      "hashPath": "skiasharp.views.forms.1.59.1.1.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/16.2.0.42": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Bp1HNd2CciLLOoeATC2ybTNtXdRckshmhqpHTCDm4X1Xc0P0p+bkdZW9yGOvkF8s4xdepFTsgH2l7oxjLRiC9w==",
+      "path": "syncfusion.licensing/16.2.0.42",
+      "hashPath": "syncfusion.licensing.16.2.0.42.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.Core/16.2.0.42": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xWHkgWz6uImcdUdKgRdFy2UPiHCfmVbp62plu3g6GcumpMRmVkZvaFS08kvptBMZdPZeOw1ofyMX9e3j/I52Dg==",
+      "path": "syncfusion.xamarin.core/16.2.0.42",
+      "hashPath": "syncfusion.xamarin.core.16.2.0.42.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfChart/16.2.0.42": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hfDmUQd3q1z4kpijvnVa+VkD56KK0MrzcIGTDm5Zh5lIN4zxU1JcjBlRNzEiWgExnI1AnLfRM+k0z5AMXUGvfw==",
+      "path": "syncfusion.xamarin.sfchart/16.2.0.42",
+      "hashPath": "syncfusion.xamarin.sfchart.16.2.0.42.nupkg.sha512"
+    },
+    "System.ValueTuple/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BahUww/+mdP4ARCAh2RQhQTg13wYLVrBb9SYVgW8ZlrwjraGCXHGjo0oIiUfZ34LUZkMMR+RAzR7dEY4S1HeQQ==",
+      "path": "system.valuetuple/4.4.0",
+      "hashPath": "system.valuetuple.4.4.0.nupkg.sha512"
+    },
+    "Xamarin.Forms/3.1.0.637273": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iYIMlhf5BFutJiVYYfawEtMzq4vo9m5qdT7R/IeDD40ENsqxqMBmvwp1/VzfD0las3ptkE0vgUG57O7QcUJlow==",
+      "path": "xamarin.forms/3.1.0.637273",
+      "hashPath": "xamarin.forms.3.1.0.637273.nupkg.sha512"
+    }
+  }
+}

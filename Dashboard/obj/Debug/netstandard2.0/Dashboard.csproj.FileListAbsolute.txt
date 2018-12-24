@@ -1,0 +1,12 @@
+/Users/amitsuri/Projects/Dashboard/Dashboard/bin/Debug/netstandard2.0/Dashboard.deps.json
+/Users/amitsuri/Projects/Dashboard/Dashboard/bin/Debug/netstandard2.0/Dashboard.dll
+/Users/amitsuri/Projects/Dashboard/Dashboard/bin/Debug/netstandard2.0/Dashboard.pdb
+/Users/amitsuri/Projects/Dashboard/Dashboard/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/amitsuri/Projects/Dashboard/Dashboard/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/amitsuri/Projects/Dashboard/Dashboard/obj/Debug/netstandard2.0/Dashboard.csproj.CoreCompileInputs.cache
+/Users/amitsuri/Projects/Dashboard/Dashboard/obj/Debug/netstandard2.0/Dashboard.AssemblyInfoInputs.cache
+/Users/amitsuri/Projects/Dashboard/Dashboard/obj/Debug/netstandard2.0/Dashboard.AssemblyInfo.cs
+/Users/amitsuri/Projects/Dashboard/Dashboard/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/amitsuri/Projects/Dashboard/Dashboard/obj/Debug/netstandard2.0/Dashboard.dll
+/Users/amitsuri/Projects/Dashboard/Dashboard/obj/Debug/netstandard2.0/Dashboard.pdb
+/Users/amitsuri/Projects/Dashboard/Dashboard/obj/Debug/netstandard2.0/Dashboard.csprojAssemblyReference.cache

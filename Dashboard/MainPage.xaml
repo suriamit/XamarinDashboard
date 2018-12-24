@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Dashboard" xmlns:chart="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms" x:Class="Dashboard.MainPage" Title="Management Dashboard">
+    <ContentPage Title="Home" Icon="baseline_dashboard_black_24dp.png" Padding="5, 5, 5, 5">
+        <ScrollView>
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <Label Text="Management Dashboard" HorizontalOptions="CenterAndExpand" FontSize="Large" />
+                <Label Text="Top 5 Operating Systems" HorizontalOptions="CenterAndExpand" FontSize="Micro" />
+                <chart:ChartView x:Name="chartOS" IgnorePixelScaling="true" EnableTouchEvents="true" HeightRequest="250" />
+                <Label Text="Desktop Breakdown" HorizontalOptions="CenterAndExpand" FontSize="Micro" />
+                <chart:ChartView x:Name="chart3" IgnorePixelScaling="true" HeightRequest="250" IsVisible="true" />
+                <Label Text="Browser Breakdown" HorizontalOptions="CenterAndExpand" FontSize="Micro" />
+                <chart:ChartView x:Name="chart4" IgnorePixelScaling="true" HeightRequest="250" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Compliance" Icon="baseline_supervisor_account_black_24dp.png" Padding="5, 50, 5, 25">
+        <ScrollView>
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <Label Text="Bit9 Compliance Trend" HorizontalOptions="CenterAndExpand" FontSize="Micro" />
+                <chart:ChartView x:Name="chartBit9" IgnorePixelScaling="true" HeightRequest="250" />
+                <Label Text="McAfee Compliance Trend" HorizontalOptions="CenterAndExpand" FontSize="Micro" />
+                <chart:ChartView x:Name="chartMcAfee" IgnorePixelScaling="true" HeightRequest="250" />
+                <Label Text="Tanium Compliance Trend" HorizontalOptions="CenterAndExpand" FontSize="Micro" />
+                <chart:ChartView x:Name="chartTanium" IgnorePixelScaling="true" HeightRequest="250" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+</TabbedPage>
